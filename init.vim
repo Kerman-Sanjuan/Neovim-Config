@@ -17,12 +17,12 @@ set termguicolors
 let g:python_highlight_space_errors = 0
 set encoding=utf-8
 " Disable auto-detectionuof virtualenvironments
-let g:ale_virtualenv_dir_names = ['/Users/kerman/opt/anaconda3/bin/python3']
+let g:ale_virtualenv_dir_names = ['']
 " Environment variable ${VIRTUAL_ENV} is always used
 set mouse=a
 let g:gruvbox_enable_bold = 1
-let g:python3_host_prog = '/Users/kerman/opt/anaconda3/bin/python'
-let g:python_host_prog = '/Users/kerman/opt/anaconda3/bin/python'
+let g:python3_host_prog = ''
+let g:python_host_prog = ''
 autocmd vimenter * ++nested colorscheme gruvbox
 let g:gruvbox_contrast_dark = "hard"
 set laststatus=2
